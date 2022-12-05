@@ -1,27 +1,40 @@
 <!DOCTYPE html>
-<html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div>
-      <h1 class="main">저는 이런 사람입니다.</h1>
-      <h3 id="animal"><내가 좋아하는 동물></h3>
-      <img src="./animal1.jpeg" alt="강아지사진" />
-      <img src="./animal2.jpeg" alt="고양이사진" />
-      <img src="./animal3.jpeg" alt="펭귄사진" />
-      <h3 id="singer"><내가 좋아하는 가수></h3>
-      <img src="./singer1.jpeg" alt="가수10cm" />
-      <img src="./singer2.jpeg" alt="가수폴킴" />
-      <img src="./singer3.jpeg" alt="가수멜로망스" />
-      <h3 id="movie"><내가 좋아하는 영화></h3>
-      <img src="./movie1.jpeg" alt="영화인셉션" />
-      <img src="./movie2.jpeg" alt="영화트루먼쇼" />
-      <img src="./movie3.jpeg" alt="영화쇼생크탈출" />
+<html>
+
+<head>
+  <title> WEB </title>
+  <meta charset=”utf-8”>
+  <script src="master.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: white; color: black;">
+  <h1><a href="index.html">WEB</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+    </ol>
+
+    <div id="article">
+      <input id="night_day" type="button" value="night" onclick="nightDayHandler(this)">
+      <h2>WEB</h2>
+      <p>
+        The World Wide Web (WWW), commonly known as the Web, is an information system enabling documents and other web
+        resources to be accessed over the Internet.
+      </p>
+      <img
+        src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+        alt="web image" width="20%">
+      <p>
+        Documents and downloadable media are made available to the network through web servers and can be accessed by
+        programs such as web browsers. Servers and resources on the World Wide Web are identified and located through
+        character strings called uniform resource locators (URLs).
+      </p>
+      <input type="button" value="night" onclick="nightDayHandler(this)">
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
